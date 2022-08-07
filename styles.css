@@ -1,0 +1,34 @@
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+button {
+  margin-inline: auto;
+  display: block;
+  font-size: 30px;
+}
+.cards-grid {
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  margin-top: 50px;
+  margin-inline: auto;
+}
+
+.card-box {
+  background-color: aquamarine;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-img {
+  font-size: 200px;
+}
+
+.hidden {
+  visibility: hidden;
+}
